@@ -1,0 +1,9 @@
+.vs/
+obj/
+bin/
+Project/*.vpp.*
+node_modules/
+wwwroot/
+.nuxt/
+LearningPlatform/Platform.Web/Properties/PublishProfiles/
+package-lock.json
