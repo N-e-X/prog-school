@@ -1,2 +1,2 @@
 # prog-school
-School of programmers tasks
+The tasks of programmers school
