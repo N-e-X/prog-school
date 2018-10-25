@@ -31,22 +31,22 @@ namespace DiscountСalculator
                 new TypeWithName(typeof(CostDiscount), "Скидка по сумме от стоимости"),
             });
         }
+    }
 
-        public class TypeWithName
+    // Раз класс TypeWithName вложенным приватным сделать не получается (List строго типизированный), вынесем сюды...
+    public class TypeWithName
+    {
+        public Type Type { get; set; }
+        public string Name { get; set; }
+        public override string ToString()
         {
-            public Type Type { get; set; }
-            public string Name { get; set; }
-            public override string ToString()
-            {
-                return Name;
-            }
-
-            public TypeWithName(Type t, string n)
-            {
-                Type = t;
-                Name = n ?? throw new ArgumentNullException(nameof(n));
-            }
+            return Name;
         }
 
+        public TypeWithName(Type t, string n)
+        {
+            Type = t;
+            Name = n ?? throw new ArgumentNullException(nameof(n));
+        }
     }
 }
