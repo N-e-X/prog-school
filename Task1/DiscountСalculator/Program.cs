@@ -54,7 +54,7 @@ namespace DiscountСalculator
             int.TryParse(Console.ReadLine(), out var answer);
             while (answer-1 < 0 && answer-1 >= discountTypeList.Count)
             {
-                Console.WriteLine($"Значение типа скидки должно быть от 0 до {discountTypeList.Count}!");
+                Console.WriteLine($"Значение типа скидки должно быть от 1 до {discountTypeList.Count}!");
                 int.TryParse(Console.ReadLine(), out answer);
             }
 
