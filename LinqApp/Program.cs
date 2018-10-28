@@ -84,7 +84,7 @@ namespace LinqApp
             var sortedByAge = people.OrderBy(x => x.Age);
             // Сортировка по полу по возрастанию
             var sortedBySex = people.OrderBy(x => x.Sex);
-            // Сортировка по деньгам по убыванию
+            // Сортировка по деньгам по возрастанию
             var sortedByBalance = people.OrderBy(x => x.Balance);
             // Всё вместе
             var sorted = people.OrderBy(x => x.Age).ThenBy(x => x.Sex).ThenBy(x => x.Balance);
