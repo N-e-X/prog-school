@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A0B0902-6CEA-496C-8A46-D00997556035}</ProjectGuid>
+    <ProjectGuid>{F0390115-8C29-4795-9306-41FE3EC37522}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstApp</RootNamespace>
-    <AssemblyName>FirstApp</AssemblyName>
+    <RootNamespace>LinqApp</RootNamespace>
+    <AssemblyName>LinqApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
